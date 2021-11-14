@@ -4,6 +4,11 @@ def compuchoice():
   return x
 def choice():
   y = input("Choose your action (rock, paper, scissors):")
+  while y != "rock" and y != "paper" and y != "scissors":
+    print("Error: please choose rock, paper, or scissors.")
+    y = input("Choose your action (rock, paper, scissors):")
   return y
+compuchoice()
+choice()
 
   
