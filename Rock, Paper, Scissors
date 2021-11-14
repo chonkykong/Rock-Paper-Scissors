@@ -1,25 +1,15 @@
 from numpy import random
-def compuchoice():
-  x = random.choice(["rock", "paper", "scissors"])
-  return x
-def choice():
+
+x = random.choice(["rock", "paper", "scissors"])
+
+y = input("Choose your action (rock, paper, scissors):")
+while y != "rock" and y != "paper" and y != "scissors":
+  print("Error: please choose rock, paper, or scissors.")
   y = input("Choose your action (rock, paper, scissors):")
-  while y != "rock" and y != "paper" and y != "scissors":
-    print("Error: please choose rock, paper, or scissors.")
-    y = input("Choose your action (rock, paper, scissors):")
-    return y
-  return y
-compuchoice()
-choice()
+   
 print("Computer chose: " + x)
 print("You chose: " + y)
-#if x == "rock" and y == "rock":
- # print("It's a tie.")
-#if x = "paper" and y = "paper":
-  #print("It's a tie.")
-#if x == "rock" and y == "rock":
-#  print("It's a tie.")
-  
+
 if x == y:
   print("It's a tie.")
   
