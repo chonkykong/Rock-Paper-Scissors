@@ -24,9 +24,9 @@ if x == y:
   
 if x == "rock" and y == "scissors":
   print("Computer wins.")
-  if x == "scissors" and y == "paper":
+if x == "scissors" and y == "paper":
   print("Computer wins.")
-  if x == "paper" and y == "rock":
+if x == "paper" and y == "rock":
   print("Computer wins.")
   
 if x == "rock" and y == "paper":
