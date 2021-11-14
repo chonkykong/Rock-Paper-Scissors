@@ -19,7 +19,7 @@ print("You chose: " + y)
 #if x == "rock" and y == "rock":
 #  print("It's a tie.")
   
- if x == y:
+if x == y:
   print("It's a tie.")
   
 if x == "rock" and y == "scissors":
