@@ -12,25 +12,28 @@ compuchoice()
 choice()
 print("Computer chose: " + x)
 print("You chose: " + y)
-if x = "rock" and y = "rock":
-  print("It's a tie.")
-if x = "scissors" and y = "scissors":
-  print("It's a tie.")
-if x = "paper" and y = "paper":
+#if x == "rock" and y == "rock":
+ # print("It's a tie.")
+#if x = "paper" and y = "paper":
+  #print("It's a tie.")
+#if x == "rock" and y == "rock":
+#  print("It's a tie.")
+  
+ if x == y:
   print("It's a tie.")
   
-if x = "rock" and y = "scissors":
+if x == "rock" and y == "scissors":
   print("Computer wins.")
-  if x = "scissors" and y = "paper":
+  if x == "scissors" and y == "paper":
   print("Computer wins.")
-  if x = "paper" and y = "rock":
+  if x == "paper" and y == "rock":
   print("Computer wins.")
   
-if x = "rock" and y = "paper":
+if x == "rock" and y == "paper":
   print("You win!")
-if x = "scissors" and y = "rock":
+if x == "scissors" and y == "rock":
   print("You win!")
-if x = "paper" and y = "scissors":
+if x == "paper" and y == "scissors":
   print("You win!")
   
   
