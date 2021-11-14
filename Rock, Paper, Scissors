@@ -7,6 +7,7 @@ def choice():
   while y != "rock" and y != "paper" and y != "scissors":
     print("Error: please choose rock, paper, or scissors.")
     y = input("Choose your action (rock, paper, scissors):")
+    return y
   return y
 compuchoice()
 choice()
