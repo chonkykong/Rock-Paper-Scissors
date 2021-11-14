@@ -1,0 +1,9 @@
+from numpy import random
+def compuchoice():
+  x = random.choice(["rock", "paper", "scissors"])
+  return x
+def choice():
+  y = input("Choose your action (rock, paper, scissors):")
+  return y
+
+  
